@@ -1,9 +1,9 @@
 
 
-/* body{
-  font-size: 16px;
-  font-family: "Roboto", sans-serif;
-} */
+body{
+  font-size: 16px !important;
+  font-family: "Roboto", sans-serif !important;
+}
 
 #webfont{
   font-size: 16px;
@@ -19,6 +19,27 @@
   padding-left: 5%;
   padding-right: 5%;
 }
+
+@media screen and (max-width: 691px) {
+  .h1-text-mobile{
+    font-size:xx-large !important;
+  }
+  .p-text-mobile{
+    font-size: x-small !important;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .h1-text-mobile{
+    font-size: x-large !important;
+  }
+  .p-text-mobile{
+    font-size: xx-small !important;
+  }
+}
+
+
+
 
 .my-phone{
   font-size:24px!important;
@@ -83,6 +104,21 @@
   width: 18%;
   display: inline;
 }
+@media screen and (max-width: 691px) {
+  .insta-img{
+    width: 30%;
+    display: inline;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .insta-img{
+    width: 40%;
+    display: inline;
+  }
+}
+
+
 
 .images-gallery{
   display: block;
@@ -136,6 +172,16 @@
   padding:20px 35px;
 }
 
+@media screen and (max-width: 691px) {
+  .front-page-button{
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+    background-color: rgba(9,21,53,255);
+    padding:12px 15px;
+  }
+}
+
 .aboutus-button{
   border-radius: 5px;
   border: 0px;
@@ -143,6 +189,7 @@
   background-color:  rgba(255,202,61,255);
   padding:20px 35px;
 }
+
 
 .my-container-aboutus{
   max-width: 90%;
@@ -154,6 +201,13 @@
 
 .aboutus-text{
   padding-right: 20%;
+}
+
+
+@media screen and (max-width: 992px) {
+  .aboutus-text{
+    padding-right: 0%;
+  }
 }
 
 .ceo-text{
@@ -181,4 +235,10 @@
 
 .my-container-fluid{
   max-width: 80%;
+}
+
+@media screen and (max-width: 992px) {
+  .footer-logo-text{
+    padding-right: 0%;
+  }
 }
